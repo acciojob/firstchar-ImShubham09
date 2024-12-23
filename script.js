@@ -1,8 +1,10 @@
 function firstChar(text) {
   // your code here
+	let trimtext = text.trim();
+	return trimtext.length >0 ? trimtext[0] : "" ;
 }
-
-// Do not change the code below
+ 
+// Do not change the code below 
 //Uncomment the following line to show the prompt popup
-//const text = prompt("Enter text:");
-alert(firstChar(text));
+const text = prompt("Enter text:");
+alert(firstChar(text)); 
